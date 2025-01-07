@@ -1,6 +1,5 @@
-// Lesson 2
-// Variables and types of data
-
+// Lesson 3
+// Blabalka vvl
 fn main() {
   // Immutable variable
   let x = 5;
