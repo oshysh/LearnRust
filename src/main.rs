@@ -14,5 +14,4 @@ fn main() {
   y = 15;
   println!("The new value of y is: {}", y);
 
-  11111
 }
