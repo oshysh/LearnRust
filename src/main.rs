@@ -19,4 +19,9 @@ fn greet_user(name: &str) {
 //example function with returning value
 fn add(x: i32, y: i32) -> i32 {
   x + y
-} 
+}
+
+fn multiply(a: i32, b: i32) -> i32 {
+  a*b
+}
+
