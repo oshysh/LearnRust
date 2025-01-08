@@ -12,6 +12,17 @@ fn main() {
 
   // Changing the value of y
   y = 15;
+  
   println!("The new value of y is: {}", y);
+
+  //Immutable value of name and mutable value of age
+  let name = "Shyshkina";
+  println!("Name is {}", name);
+  let mut age = 37;
+  println!("Age is {}", age);
+  age = 35;
+  println! ("New age is {}", age)
+  
+  
 
 }
