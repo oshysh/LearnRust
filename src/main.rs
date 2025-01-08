@@ -32,7 +32,12 @@ fn main() {
       println!("The weather is nice.");
     } else {
       println!("It's cold outside!");
-      }
+    }
+  let is_raising = false;
+  let temperature = if is_raising {"Take an umbrella!"} else {""};
+  println!("{}", temperature);
+  
+  
   
        
   
