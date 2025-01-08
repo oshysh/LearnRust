@@ -50,10 +50,11 @@ fn main() {
   let mut x = 1;
   let mut y = 0;
   while x<=10 {
-    println!("Addition: {}", x + y);
     y = x + y;
+    println!("Addition: {}",y);
     x += 1;
   }
+  println!("Final addition: {}", y);
 
   //print all numbers 1-10 without %3
     for x in 1..=10 {
