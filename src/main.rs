@@ -22,6 +22,6 @@ fn add(x: i32, y: i32) -> i32 {
 }
 
 fn multiply(a: i32, b: i32) -> i32 {
-  a*b
+  a * b
 }
 
